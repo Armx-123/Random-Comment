@@ -42,4 +42,4 @@ jobs:
           echo "Chromedriver path: $(which chromedriver)"
 
       - name: Run the Python script
-        run: python main.py
+        run: python download.py
