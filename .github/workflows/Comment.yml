@@ -1,4 +1,4 @@
-name: Test
+name: Comment
 
 on:
   schedule:
@@ -43,3 +43,5 @@ jobs:
 
       - name: Run the Python script
         run: python download.py
+      - name: Process
+        run: python main.py
