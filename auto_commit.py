@@ -4,8 +4,8 @@ import os
 ACCESS_TOKEN = os.environ['GIT']
 
 # Repository details
-REPO_NAME = "Armx-123/Auric"  # Format: username/repo
-FILE_PATH = "file.txt"  # Path in the repo
+REPO_NAME = "Armx-123/Random-Comment"  # Format: username/repo
+FILE_PATH = "title.txt"  # Path in the repo
 LOCAL_FILE = "title.txt"  # Local file to upload
 COMMIT_MESSAGE = "Add a new text file"
 
