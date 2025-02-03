@@ -2,7 +2,7 @@ name: Comment
 
 on:
   schedule:
-    - cron: "*/5 * * * *"  # Runs every day at 20:30 UTC
+    - cron: "*/10 * * * *"  # Runs every day at 20:30 UTC
   workflow_dispatch:       # Allows manual triggering
 
 env:
